@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services d'externalisation : saisie de données, support client, assistanat administratif, facturation, rapprochement bancaire et saisie comptable.">
+    <title>Externalisation de Services - Saisie de Données, Support Client et Plus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Votre Partenaire pour l'Externalisation de Services</h1>
+            <p>Spécialisés dans la saisie de données, le support client et l'assistanat administratif.</p>
+            <nav>
+                <ul>
+                    <li><a href="#services">Nos Services</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="service-list">
+                    <div class="service-item">
+                        <h3>Saisie de Données</h3>
+                        <p>Gestion rapide et précise de vos données pour une efficacité maximale.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Support Client</h3>
+                        <p>Assistance professionnelle et réactive pour vos clients.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Assistanat Administratif</h3>
+                        <p>Prise en charge de la facturation, du rapprochement bancaire et de la saisie comptable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>À Propos de Nous</h2>
+                <p>Basée à Madagascar, notre équipe expérimentée propose des services professionnels à des tarifs compétitifs. Nous garantissons une connexion rapide grâce à la fibre optique et un système de sauvegarde pour assurer la continuité de nos services.</p>
+                <p>Nous collaborons avec des entreprises de divers secteurs, allant des start-ups aux ONG, en passant par les banques, et nous nous engageons à répondre à vos besoins avec professionnalisme et flexibilité.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Prêt à externaliser vos services administratifs et gagner en efficacité ? Contactez-nous dès aujourd'hui !</p>
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Votre Entreprise. Tous droits réservés.</p>
+            <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+</html>
